@@ -1,0 +1,24 @@
+{
+    "name" : "michcald/fsm-bundle",
+    "description" : "The Finite State Bundle for Symfony2",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Michael Caldera",
+        "email" : "michcald@gmail.com"
+    }],
+    "keywords" : [
+        "finite", "state", "machine", "bundle"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+        "php": ">=5.3.3",
+        "michcald/fsm": "dev-master"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Michcald\\FsmBundle" : ""
+        }
+    }
+}
